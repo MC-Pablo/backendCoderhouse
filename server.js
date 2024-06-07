@@ -20,6 +20,14 @@ server.use("/api/public", express.static(path.join("src", "public")));
 server.use('/api/products', productsRouter);
 server.use('/api/carts', cartsRouter);
 
+
+
+
+
+
+
+
+
 server.listen(PORT, () => {
     console.log(`Ejecutandose en http://${HOST}:${PORT}`);
 });
