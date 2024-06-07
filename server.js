@@ -22,12 +22,6 @@ server.use('/api/carts', cartsRouter);
 
 
 
-
-
-
-
-
-
 server.listen(PORT, () => {
     console.log(`Ejecutandose en http://${HOST}:${PORT}`);
 });
